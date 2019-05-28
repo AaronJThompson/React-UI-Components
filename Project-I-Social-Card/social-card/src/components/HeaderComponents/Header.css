@@ -1,1 +1,26 @@
 /* All styles for your header Components live here */
+
+.post-header {
+    display: flex;
+    align-items: flex-start;
+}
+
+.post-header img{
+    width:4rem;
+    height:4rem;
+    margin-top: 0.5em;
+}
+
+.post-header .content {
+    padding: 0.5em 0.2em;
+}
+.post-header .content .title{
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+.post-header .post-info{
+    margin-left: 0.8em;
+    font-size: 0.8em;
+    color: grey;
+    font-weight: normal;
+}

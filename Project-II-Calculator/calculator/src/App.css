@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+.calculator{
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 3rem;
+    border: 1px solid grey;
+    
+}
+
+.button-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
