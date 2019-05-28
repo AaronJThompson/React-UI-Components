@@ -9,7 +9,7 @@ function CardContainer(props) {
     return (
         <div className="card">
             <CardBanner imageSrc={banner.imageSrc} />
-            <CardContent  title={content.title} body={content.body} link={content.link} />
+            <CardContent  title={content.title} body={content.body} link={content.link} url={content.url} />
         </div>
     );
 }

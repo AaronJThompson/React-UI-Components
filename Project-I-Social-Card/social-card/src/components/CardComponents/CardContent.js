@@ -2,13 +2,13 @@ import React from 'react';
 import './Card.css';
 
 function CardContent(props) {
-    const { title, body, link } = props;
+    const { title, body, link, url } = props;
 
     return (
         <div className="card-content">
             <h3>{title}</h3>
             <p>{body}</p>
-            <span>{link}</span>
+            <a href={url}>{link}</a>
         </div>
     );
 }
