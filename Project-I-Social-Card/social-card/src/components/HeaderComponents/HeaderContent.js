@@ -9,8 +9,8 @@ function HeaderContent(props) {
 
     return (
         <div className="content">
-            {content}
             <HeaderTitle title={title} userHandle={userHandle} date={date} />
+            {content}
         </div>
     );
 }
