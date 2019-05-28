@@ -1,0 +1,19 @@
+button{
+    width: 25%;
+    height: 4rem;
+    border: none;
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;
+    background-color: white;
+    font-size: 2rem;
+}
+
+.action-button{
+    width: 75%;
+}
+
+.operator{
+    background-color: darkred;
+    color: white;
+    font-size: 3rem;
+}
