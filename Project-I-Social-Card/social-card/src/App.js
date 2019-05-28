@@ -25,7 +25,10 @@ const App = () => {
     },
   }
   return (
-
+    <div className="social-card">
+      <HeaderContainer  imageSrc={header.imageSrc} content={header.content} postInfo={header.postInfo} />
+      <CardContainer  banner={card.banner} content={card.content} />
+    </div>
   );
 };
 
