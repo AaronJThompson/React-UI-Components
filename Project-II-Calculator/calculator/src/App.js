@@ -6,7 +6,7 @@ import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
 
 const App = () => {
   return (
-    <div clasName="calculator">
+    <div className="calculator">
       <CalculatorDisplay text="0" />
       <div className="button-container">
         <ActionButton text="clear" />
